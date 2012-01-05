@@ -1,0 +1,108 @@
+body {
+	background-color: white;
+	font-family: Palatino, Verdana, sans-serif;
+	font-size: 14;
+  	margin: 0px;
+  	color: #454545;
+
+}
+
+a {
+	color: #EA7806;
+	text-decoration: none;
+}
+
+adiv {
+	border: 1px solid;
+}
+
+aspan {
+	border: 1px solid red;
+}
+
+.navcontainer {
+	width: 100%;
+	background-color: #CC6808;
+  	border-bottom: 1px solid rgba(99, 99, 99, 0.99);
+/*	position: fixed; */
+	
+}
+
+.navbar {
+	width: 888px;
+}
+
+.navelement {
+	display: inline-block;
+  color: white;
+
+  font-family: Verdana, sans-serif;
+  font-size: 4;
+  text-align: center;
+  
+  padding-right: 30px;
+  padding-left: 30px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-left: 1px solid white;
+}
+
+#user {
+	text-align: right;
+	border-right: 1px solid white;
+}
+#logo {
+	width: 300px;
+	border-left: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Palatino;
+  	font-size: 150%;
+}
+
+.navelement a {
+  color: white;
+}
+
+.searchbar {
+	padding-top: 20%;
+	margin: auto;
+	text-align: center;
+}
+
+#searchbar {
+	width: 33%;
+	height: 30px;
+	border-radius: 8px;
+}
+
+#searchbutton {
+	color: white;
+	margin-top: 10px;
+	text-align: center;
+	padding: 10px;
+	background: linear-gradient(top, #EA7806 0%,#F07D00 100%);
+	background: -moz-linear-gradient(top, #EA7806 0%, #F07D00 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FEB62C), color-stop(100%,#F07D00));
+	background: -webkit-linear-gradient(top, #EA7806 0%,#F07D00 100%);
+	background: -o-linear-gradient(top, #EA7806 0%,#F07D00 100%);
+	background: -ms-linear-gradient(top, #EA7806 0%,#F07D00 100%);
+	border-radius: 5px;
+	
+}
+
+a#searchbutton:hover {
+	background: linear-gradient(top, #FFA040 0%,#F07D00 100%);
+	background: -moz-linear-gradient(top, #FFA040 0%, #F07D00 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FEB62C), color-stop(100%,#F07D00));
+	background: -webkit-linear-gradient(top, #FFA040 0%,#F07D00 100%);
+	background: -o-linear-gradient(top, #FFA040 0%,#F07D00 100%);
+	background: -ms-linear-gradient(top, #FFA040 0%,#F07D00 100%);
+}
+
+
+	
+
